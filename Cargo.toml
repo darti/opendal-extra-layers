@@ -1,0 +1,12 @@
+[package]
+name = "opendal-extra-layers"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+opendal = { version = "0.49.0", features = ["services-fs"] }
+
+[dev-dependencies]
+anyhow = "1.0.86"
+console-subscriber = "0.4.0"
+ctor = "0.2.8"
